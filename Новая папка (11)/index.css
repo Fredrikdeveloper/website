@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} body {
+    background: #E5E5E5;
+}
+nav {
+display: flex;
+align-items: center;
+width: 100%;
+height: 100px;
+justify-content: space-between;
+} .icons {
+
+}
+.icons > ul  {
+    display: flex;
+align-items: center;
+list-style: none;
+
+} .linecontainer {
+    display: flex;
+    align-items: center;
+}
+.contents > ul {
+     display: flex;
+     align-items: center;
+    list-style: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+margin-left: 40px;
+/* identical to box height, or 158% */
+
+letter-spacing: 1.575px;
+text-transform: uppercase;
+
+color: #56593D;
+gap: 39px;
+}
+
+
+
+
+
+
+
+
+
+ .yellowline {
+    background-color: red;
+    border-radius: 0px;
+    width: 1424 px;
+    height: 16;
+    color: red;
+}
+.section1 {
+    background: url(./Rectangle.png)  no-repeat center center/cover;
+
+    height: 700px;
+    width: 100%;
+  
+} .section1menu {
+    color: #56593D;
+    padding-top: 25%;
+    
+}
+ .section1menu > h3, h1, .imgbutton  {
+    
+    margin-left: 80%;
+
+
+} .project-title > h1 {
+    margin-left: -199px;
+  color:  #56593D;
+} 
+.section1menu > h3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Source Serif Pro', serif;    
+} .section1menu > h1 {
+    font-weight: 400;
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 45px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.imgbutton  {
+    width: 154px;
+    height: 56px;
+    background-color: #56593D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} .imgbutton > h4 {
+    color: white;
+    letter-spacing: 1.575px;
+    font-size: 16px;
+    font-family: 'Source Serif Pro', serif ;
+    font-style: normal;
+
+} .textmenu > p {
+    color:  #56593D ;
+    
+    font-size: 57px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+margin-top: 94px;
+} .textmenu {
+    width: 1194px;
+    height: 243px;
+    margin: 0 auto;
+} 
+.arrow {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+
+} .arrow > h5 {
+    color:  #56593D ;
+    text-decoration: underline  #56593D;
+    font-size: 16px;
+    font-family: roboto;
+    font-style: normal;
+    letter-spacing: 1.6px;
+}
+/* section2 */
+.section2 {
+    height: 738px;
+   margin-top: 39px;
+   width: 100%;
+   background: #FFFFEF;
+   display: flex;
+   justify-content: center;
+    
+  }
+  .text-title > h1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: #56593D;
+margin-left: 0;
+text-align: center;
+margin-bottom: 80px;
+margin-top: 63px;
+
+  }
+  .image-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+ }
+ .image-menu > img{
+ height: 411px;
+ 
+} .section2menu {
+    height: 609px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section3 */
+
+
+    .section3 {
+        background: url(./sectionlogo.png)  no-repeat center center/cover;
+        margin-top: 24px;
+        height: 700px;
+        width: 100%;
+     
+    } .text-menu3  > h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        margin: 0;
+        padding-top: 62px;
+      
+        /* identical to box height, or 127% */
+        
+        text-align: center;
+        letter-spacing: 1.8px;
+        
+        color: #56593D;
+    } .text-menu3 > p {
+        
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 60px;
+/* or 121% */
+
+text-align: center;
+
+color: #56593D;
+
+    } 
+    /* section4 */
+    .section4 {
+        margin-top: 24px;
+        height: 746px;
+        width: 100%;
+        background: #FFFFEF;
+        display: flex;
+       align-items: center ;
+       
+    } .section4menu {
+        display: flex;
+        align-items: center ;
+    } 
+    .text-menu4 > h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        margin: 0 ;
+        text-align: center;
+    
+        /* identical to box height, or 134% */
+        
+        text-align: center;
+        
+        color: #56593D;
+    } .text-menu4 > p {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        /* or 162% */
+        
+        text-align: center;
+        
+        color: #56593D;
+    } .img-menu4 {
+        height: 618px;
+        width: 743px;
+        margin-left: 32px;
+        display: flex;
+        align-items: center ;
+      
+        
+    } .img-menu4 > img {
+        height: 618px;
+    }
+
+    /* section5 */
+    .section5 {
+        margin-top: 24px;
+        height: 1014px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background: #FFFFEF;
+    } .section5menu {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+    } .img-menu5 {
+        margin-right: 32px;
+    }
+   
+  .text-menu5 {
+    margin: 0 auto;
+    margin-bottom: 500px;
+  }
+    .text-menu5  > h1 {
+   
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 39px;
+width: 350px;
+height: 39px;
+
+margin: 0;
+margin-right: 0;
+text-align: center;
+
+
+/* identical to box height, or 134% */
+color: #56593D;
+    } .lline2 {
+        width: 40px;
+        border-top: 1px solid  #56593D;
+        margin: 0 auto;
+        padding-top: 20px;
+        
+    }
+     .text-menu5 > p {
+    
+        font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 162% */
+width: 347px;
+height: 227px;
+text-align: center;
+
+color: #56593D;
+ 
+    } .img-menu5 {
+       
+    }
+
+
+    /* section6 */
+    .section6 {
+        margin-top:40px;
+        height: 279px;
+          width: 100%;
+          background: #FFFFEF;
+    } .section6menu > h1 {
+        
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+margin: 0;
+text-align: center;
+margin-top: 63px;
+padding-top: 63px ;
+
+
+/* identical to box height, or 139% */
+
+
+
+color: #56593D;
+    } .section6menu > p {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+text-align: center;
+margin-top: 16px;
+/* identical to box height, or 169% */
+padding-top: 16px ;
+
+color: #56593D;
+    } 
+    .lline3 > button {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+background-color: #56593D;
+padding: 10px;
+
+/* identical to box height, or 151% */
+border: none;
+margin-left: 46.5%;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+
+
+color: #FFFFEF;
+    }
+
+
+    /* section7 */
+.section7 {
+    margin-top: 40px;
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFEF;
+} .img-menu7 > img {
+    height: 320px;
+    
+} .img-menu7 {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+} .section7menu > h1 {
+margin-left: 45% ;
+margin-bottom: 39px;
+color: #56593D ;
+}
+/* section8 */
+.section8 {
+    background-color: #56593D;
+    margin-top:128px;
+    height: 382px;
+    color: white;
+    
+} .section8menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
+} .ul1 {
+    margin-left: 32px;
+    margin-top: 25px;
+}.ul2 {
+    padding: 20px 0px;
+    line-height: 50px;
+    margin-top: 30px;
+} .ul3 {
+    padding: 20px 0px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+ ul {
+    list-style: none;
+} .ul4 {
+    color: black;
+    
+}
+
+.lline1 {
+    width: 40px;
+    border-top: 1px solid  #56593D;
+}
+.lline3 {
+    width: 200px;
+    border-top: 1px solid  #56593D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.line3 {
+    width: 40px;
+    border-top: 1px solid white;
+} .line2 {
+    width: 40px;
+    border-top: 1px solid white;
+} .line1 {
+    width: 40px;
+    border-top: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
